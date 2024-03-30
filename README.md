@@ -22,6 +22,7 @@
   Clone the repository and navigate to the correct file path
 
   create a .env file in the root folder with the following structure:
+  
   ![](./assets/screenshot.png)
 
   Open your terminal in the root folder and enter the following commands:
