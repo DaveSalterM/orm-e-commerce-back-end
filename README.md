@@ -27,13 +27,13 @@
 
   Open your terminal in the root folder and enter the following commands:
 
-  npm i
-  psql -U postgres
-  password
-  \i db/schema.sql;
-  \q
-  npm run seed
-  node server.js
+  - npm i
+  - psql -U postgres
+  - password
+  - \i db/schema.sql;
+  - \q
+  - npm run seed
+  - node server.js
 
   Then open localhost3001:api/categories in Insomnia (or equivelent)
 
