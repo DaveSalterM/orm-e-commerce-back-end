@@ -55,7 +55,7 @@ router.put('/:id', async (req, res) => {
       }
     );
     if (!category[0]) {
-      res.status(404).json({msg:'No User with that ID exists'});
+      res.status(404).json({msg:'No Category with that ID exists'});
       return;
     }
     res.status(200).json(category);
